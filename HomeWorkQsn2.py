@@ -3,7 +3,7 @@ import csv
 
 with open("records.csv", mode="r") as file:
     reader = csv.reader(file)
-    header = next(reader)  # skip heading
+    header = next(reader)  
 
    
     passed_students = []
